@@ -6,7 +6,7 @@ import tempfile
 st.title("YOLOv8 Object Detection")
 
 # Load model without cache
-model = YOLO("runs/detect/train/weights/best.pt")
+model = YOLO("runs/detect/train3/weights/best.pt")
 
 uploaded_video = st.file_uploader("Upload a video", type=["mp4","avi","mov"])
 
