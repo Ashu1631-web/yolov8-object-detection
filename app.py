@@ -17,7 +17,7 @@ st.write("Select an image from dataset or upload your own image.")
 # -----------------------------
 @st.cache_resource
 def load_model():
-    return YOLO("yolov8n.pt")
+    return YOLO("yolov8n")
 
 model = load_model()
 
